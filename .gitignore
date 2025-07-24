@@ -1,0 +1,210 @@
+# macOS 特有文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 图标预览
+Icon?
+._*
+
+# 缩略图数据库
+.Spotlight-V100
+.Trashes
+EhThumbs.db
+Thumbs.db
+
+# Xcode 相关 (如果你进行 iOS/macOS 开发)
+# Build generated files
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.pbxlop
+!default.pbxlop
+*.xcassets
+!default.xcassets
+# Scheme auto-generated files
+*.xcscheme
+!default.xcscheme
+# project specific targets
+*.xcodeproj
+xcuserdata/
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+*.xcworkspace
+!default.xcworkspace
+
+# Carthage
+Carthage/Bootstrap/
+
+# Ruby/Rails (如果你使用 Ruby 或 Rails)
+.bundle
+.byebug_history
+.idea/
+.rspec
+/vendor/bundle
+/vendor/cache
+/vendor/gems
+/vendor/ruby
+config/database.yml
+config/secrets.yml
+db/*.sqlite3
+db/*.sqlite3-journal
+log/*.log
+tmp/
+*.swp
+*.swo
+.rvmrc
+.ruby-version
+.zeus.sock
+.spring/
+.vagrant/
+
+# Node.js (如果你使用 Node.js)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# 环境文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Next.js
+.next/
+# Nuxt.js
+.nuxt/
+.output/
+# VuePress
+.vuepress/dist/
+# Gatsby
+public/
+.cache/
+# parcel
+.cache/
+.parcel-cache/
+dist/
+
+# Python (如果你使用 Python)
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-arg.txt
+.pytest_cache/
+.mypy_cache/
+.vscode/
+
+# Java (如果你使用 Java, Maven, Gradle)
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+# Gradle
+.gradle/
+build/
+out/
+.idea/
+.project
+.classpath
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# PHP (如果你使用 PHP, Composer, Symfony, Laravel)
+vendor/
+composer.lock
+.env
+.phpunit.result.cache
+/public/build/
+/storage/*.key
+/vendor/
+Homestead.json
+Homestead.yaml
+.idea/
+
+# Go (如果你使用 Go)
+/bin/
+/pkg/
+/src/
+*.exe
+*.test
+*.prof
+
+# SvelteKit
+.svelte-kit/
+build/
+
+# VScode (常见的编辑器配置文件)
+.vscode/
+.history/ # VS Code Local History Extension
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains IDEs (IntelliJ IDEA, WebStorm, PyCharm, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.vscode/ # 仅当你不希望与 VSCode 冲突时保留
+
+# 其他常见文件和目录
+# 日志文件
+*.log
+# 临时文件
+*.tmp
+temp/
+# 压缩文件
+*.zip
+*.tar
+*.gz
+*.rar
+# 系统生成文件
+.*.swp
+*.bak
+*~
+# SASS/LESS 编译输出
+.sass-cache/
+.css.map
+# Typings (如果使用 TypeScript)
+typings/
+
+# Docker
+Dockerfile.bak
+*.dockerignore
+.dockerignore.bak
+
+# Terraform
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.*
+crash.log
+output.tf
+terraform.tfstate
+terraform.tfstate.backup
+
+# 数据库文件
+*.sqlite3
+*.db
+*.bak
+*.dump
+# IntelliJ IDEA 数据库相关
+data/
