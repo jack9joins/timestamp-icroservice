@@ -8,17 +8,16 @@
   },
   "dependencies": {
     "express": "^4.12.4",
-    "cors": "^2.8.0"
+    "dotenv": "^8.2.0",
+    "cors": "^2.8.0",
+    "mongoose": "^5.11.15"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-timestamp.git"
+    "url": "https://github.com/jack9joins/timestamp-icroservice"
   },
-  "bugs": {
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
-  },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
-  "author": "freeCodeCamp <team@freecodecamp.org>",
+  "homepage": "https://github.com/jack9joins/timestamp-icroservice#readme",
+  "author": "Jack Joins",
   "keywords": [
     "node",
     "express",
